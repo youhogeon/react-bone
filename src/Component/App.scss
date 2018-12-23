@@ -1,0 +1,10 @@
+$color:#e47c3c;
+
+body{ background:complement($color); text-align:center; }
+#logo{ width:768px; animation: rotation 10s infinite linear; }
+#banner{ color:#e47c3c; font-size:64px; font-weight:bold; text-shadow:0 0 15px #fff; }
+
+@keyframes rotation {
+  from {transform: rotate(0deg);}
+  to   {transform: rotate(359deg);}
+}
